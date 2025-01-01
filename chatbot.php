@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$apiKey = "AIzaSyCWrJSVq9l5749Eq2hFiYP1zAPKp0aP0cA"; // Replace with your actual API key
+$apiKey = "API Key"; // Replace with your actual API key
 $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=$apiKey";
 
 $userMessage = $_POST['message'] ?? '';
